@@ -41,7 +41,7 @@ A database for a small e-commerce shop, handling customers, products, orders, an
 ### 6. 🎬 Cinema Management DB
 A database for a cinema, managing cinema locations, screens, movies, and ticket sales.
 * **Demonstrates:** Use of composite `UNIQUE` keys to enforce business logic (e.g., one seat per screen) and `CHECK` constraints.
-* **[View Project](./CinemaManagement-DB/)**
+* **[View Project](./CinemaManagement/)**
 
 ---
 
