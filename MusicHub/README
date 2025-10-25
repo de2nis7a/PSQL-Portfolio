@@ -1,0 +1,46 @@
+# 🎵 MusicHub-DB
+
+This project is a PostgreSQL database that simulates a music streaming platform.  
+It manages data for **customers**, **songs**, and **playlists**, showing how users interact with and organize their music collections.
+
+---
+
+## 📘 Features
+- Stores and manages **customer** information.  
+- Tracks **songs** and their details such as artist, length, and release year.  
+- Organizes **playlists** created by customers.  
+- Connects **songs** and **playlists** through a many-to-many relationship.  
+
+---
+
+## 🧱 Database Structure
+**Main Tables:**
+- `customers` — stores user account and contact information.  
+- `songs` — holds song metadata (artist, length, year).  
+- `playlists` — contains customer-created playlists.  
+- `song_playlist` — links songs to playlists (many-to-many relationship).  
+
+---
+
+## 🧠 Demonstrated Skills
+- **Database normalization (1NF–3NF)**  
+- **Relational schema design**  
+- **Use of primary & foreign keys**  
+- **Many-to-many relationship modeling**  
+- **Data insertion and organization in PostgreSQL**
+
+---
+
+## 🚀 How to Use
+1.  **Create a database** in your PostgreSQL instance (e.g., `CREATE DATABASE musichub;`).
+2.  **Connect** to your new database.
+3.  **Run** the entire SQL script from this repository to create the tables and insert the sample data.
+
+---
+
+
+## 📩 Author
+**Denisa R.**  
+*Computer Science Student – University of Portsmouth*
+
+

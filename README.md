@@ -21,12 +21,12 @@ A comprehensive database for a restaurant, tracking everything from ingredients 
 ### 2. 🎓 University Management DB
 A database designed to manage a university's core data: students, lecturers, courses, departments, and enrollments.
 * **Demonstrates:** M2M relationships (students-to-courses, lecturers-to-courses) and normalization.
-* **[View Project](./StudentManagementSystem-DB/)**
+* **[View Project](./StudentManagementSystem/)**
 
 ### 3. 🎵 MusicHub DB
 A database for a music streaming service, managing customers, songs, and personal playlists.
 * **Demonstrates:** M2M relationships (linking songs to playlists) and data organization.
-* **[View Project](./MusicHub-DB/)**
+* **[View Project](./MusicHub/)**
 
 ### 4. 🚗 Car Rental Management DB
 A database for a car rental business. It manages the car inventory, customers, rentals, payments, and reviews.
