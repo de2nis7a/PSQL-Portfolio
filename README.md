@@ -36,7 +36,7 @@ A database for a car rental business. It manages the car inventory, customers, r
 ### 5. 🛒 E-Commerce Management DB
 A database for a small e-commerce shop, handling customers, products, orders, and order items.
 * **Demonstrates:** `UNIQUE` fields, `CHECK` constraints, and M2M relationships with composite primary keys. Includes sample queries that correctly fail.
-* **[View Project](./ECommerceManagement-DB/)**
+* **[View Project](./ECommerceManagement/)**
 
 ### 6. 🎬 Cinema Management DB
 A database for a cinema, managing cinema locations, screens, movies, and ticket sales.
