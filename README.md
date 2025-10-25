@@ -16,7 +16,7 @@ Here is a list of the database projects included in this portfolio:
 ### 1. 🍽️ Restaurant Management DB
 A comprehensive database for a restaurant, tracking everything from ingredients and recipes to customer orders and chefs.
 * **Demonstrates:** Advanced M2M relationships (with attributes in junction tables), 3NF normalization, and complex schema design.
-* **[View Project](./RestaurantManagement-DB/)**
+* **[View Project](./RestaurantManagement/)**
 
 ### 2. 🎓 University Management DB
 A database designed to manage a university's core data: students, lecturers, courses, departments, and enrollments.
