@@ -31,7 +31,7 @@ A database for a music streaming service, managing customers, songs, and persona
 ### 4. 🚗 Car Rental Management DB
 A database for a car rental business. It manages the car inventory, customers, rentals, payments, and reviews.
 * **Demonstrates:** Extensive use of `CHECK` and `UNIQUE` constraints to enforce business rules (e.g., valid ratings, correct date logic).
-* **[View Project](./CarRentalManagement-DB/)**
+* **[View Project](./CarRentalManagement/)**
 
 ### 5. 🛒 E-Commerce Management DB
 A database for a small e-commerce shop, handling customers, products, orders, and order items.
