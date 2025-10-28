@@ -24,8 +24,8 @@ It is designed to track the entire operational flow, from **ingredients** and **
 - `chefs`: Stores information about the chefs and their specialities.
 - `orders`: Records customer orders with date and time.
 - `dishes`: Contains menu items, linked to a category and a primary chef.
-- `ingredients_dish`: M2M junction table detailing a dish's recipe (ingredients and quantities).
-- `order_details`: M2M junction table detailing an order's contents (dishes and quantities).
+- `ingredients_dish`: M2M intersection table detailing a dish's recipe (ingredients and quantities).
+- `order_details`: M2M intersection table detailing an order's contents (dishes and quantities).
 
 ---
 

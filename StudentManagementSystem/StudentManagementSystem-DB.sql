@@ -45,7 +45,7 @@ CREATE TABLE students_courses(
     PRIMARY KEY(stu_id, course_id) 
 );
 
--- Insert students
+--Insert students
 INSERT INTO students (stu_first_name, stu_mid_name, stu_last_name, stu_addr1, stu_addr2, stu_city, stu_postcode, stu_email, stu_phone, stu_year)
 VALUES
   ('Mark', 'J', 'Johnson', '123 Main Street', '', 'Portsmouth', 'PO1 3AX', 'mark.johnson@email.com', '1234567890', 3),
@@ -56,13 +56,13 @@ VALUES
   ('Alan', 'B', 'Turing', '1415 North Street', '', 'Cambridge', 'CB2 1TN', 'alan.turing@email.com', '1112223334', 2),
   ('Grace', 'M', 'Hopper', '1617 West Street', 'Flat 6', 'Oxford', 'OX1 2JD', 'grace.hopper@email.com', '5556667778', 1);
 
--- Insert departments
+--Insert departments
 INSERT INTO departments (dept_name)
 VALUES
   ('School of Computing'),
   ('School of Engineering');
 
--- Insert lecturers
+--Insert lecturers
 INSERT INTO lecturers (dept_id, lect_title, lect_first_name, lect_last_name, lect_email)
 VALUES
   (1, '', 'Val', 'Adamescu', 'val.adamescu@port.ac.uk'),
@@ -71,7 +71,7 @@ VALUES
   (2, 'Prof.', 'Mark', 'Black', 'mark.black@port.ac.uk'),
   (2, 'Dr.', 'Sarah', 'Blue', 'sarah.blue@port.ac.uk');
 
--- Insert courses
+--Insert courses
 INSERT INTO courses (course_name)
 VALUES
   ('Computing'),
@@ -82,7 +82,7 @@ VALUES
   ('Mechanical Engineering'),
   ('Civil Engineering');
 
--- Insert students_courses
+--Insert students_courses
 INSERT INTO students_courses (stu_id, course_id, grade)
 VALUES
   (1, 1, 75),
@@ -93,7 +93,7 @@ VALUES
   (6, 6, 70),
   (7, 7, 88);
 
--- Insert lecturers_courses
+--Insert lecturers_courses
 INSERT INTO lecturers_courses (lect_id, course_id)
 VALUES
   (1, 1),
