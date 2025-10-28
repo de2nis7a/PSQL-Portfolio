@@ -30,16 +30,18 @@ CREATE TABLE tickets(
     UNIQUE(seat_number, screen_id)
 );
 
+--good inserts 
 INSERT INTO cinemas(cinema_name, location)
 VALUES
 ('Cinema A', 'london'),
 ('Cinema B', 'portsmouth');
 
---WRONG
+--wrong
 INSERT INTO cinemas(cinema_name, location)
 VALUES
 ('Cinema A', 'portsmouth');
 
+--good inserts 
 INSERT INTO screens(cinema_id, screen_date, screen_time)
 VALUES
 (1, '2022-11-22', '8:00'),
@@ -52,12 +54,14 @@ INSERT INTO screens(cinema_id, screen_date, screen_time)
 VALUES
 (3, '2022-12-22', '5:00');
 
+--good inserts 
 INSERT INTO movies(movie_title, genre)
 VALUES
 ('A', 'romance'),
 ('B', 'horror'),
 ('C', 'comedie');
 
+--good inserts 
 INSERT INTO tickets(screen_id, movie_id, seat_number, ticket_price)
 VALUES
 (1, 1, 5, 11.0),
