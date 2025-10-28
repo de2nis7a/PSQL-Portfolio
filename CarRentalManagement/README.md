@@ -27,7 +27,7 @@ It handles cars, customers, rentals, payments, and rental reviews, demonstrating
 
 ## 🧠 Demonstrated Skills
 - **Relational database design**  
-- **Primary & foreign key usage** a
+- **Primary & foreign key usage** 
 - **Data integrity with UNIQUE and CHECK constraints**  
 - **Many-to-many relationship modeling**  
 - **Validation of business rules in database schema**  

@@ -42,6 +42,7 @@ CREATE TABLE rental_reviews(
     FOREIGN KEY (rental_id) REFERENCES rentals(rental_id)
 );
 
+--good inserts
 INSERT INTO cars(car_make, car_model, car_year, car_price) 
 VALUES
 ('asnx', 'ascv', '2000', 2000.0),
@@ -55,6 +56,7 @@ INSERT INTO cars(car_make, car_model, car_year, car_price)
 VALUES
 ('aefse', 'wefwef', '1999', 10.0);
 
+--good inserts
 INSERT INTO customers(cust_name, cust_last_name, cust_email, cust_phone) 
 VALUES
 ('vbnm', 'dfgh', 'cevcuy@gmail.com', '45678'),
@@ -66,7 +68,7 @@ INSERT INTO customers(cust_name, cust_last_name, cust_email, cust_phone)
 VALUES
 ('xfb', 'srgs', 'sgsbrg@gmail.com', '45678');
 
-
+--good inserts
 INSERT INTO rentals(car_id, cust_id, rental_start_date, rental_end_date)
 VALUES
 (1, 1, '2022-11-23', '2023-02-28'),
@@ -81,6 +83,7 @@ INSERT INTO rentals(car_id, cust_id, rental_start_date, rental_end_date)
 VALUES
 (4, 3, '2023-12-01', '2023-09-01');
 
+--good inserts
 INSERT INTO rental_payments(rental_id, payment_date, payment_amount)
 VALUES
 (1, '2022-11-23', 1240.0),
@@ -94,6 +97,7 @@ INSERT INTO rental_payments(rental_id, payment_date, payment_amount)
 VALUES
 (1, '2022-03-23', 1.0);
 
+--good inserts
 INSERT INTO rental_reviews(rental_id, rating, comment)
 VALUES
 (1, 4 ,'Acceptable'),
