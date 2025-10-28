@@ -36,7 +36,7 @@ VALUES
 ('Cinema A', 'london'),
 ('Cinema B', 'portsmouth');
 
---wrong
+--wrong insert 
 INSERT INTO cinemas(cinema_name, location)
 VALUES
 ('Cinema A', 'portsmouth');
@@ -49,7 +49,7 @@ VALUES
 (2, '2022-11-22', '8:00'),
 (2, '2022-11-23', '10:00');
 
---wrong
+--wrong insert
 INSERT INTO screens(cinema_id, screen_date, screen_time)
 VALUES
 (3, '2022-12-22', '5:00');
@@ -70,12 +70,12 @@ VALUES
 (2, 2, 13, 11.0),
 (2, 3, 24, 14.0);
 
---wrong
+--wrong insert
 INSERT INTO tickets(screen_id, movie_id, seat_number, ticket_price)
 VALUES
 (1, 1, 88, 3.99);
 
---wrong
+--wrong insert
 INSERT INTO tickets(screen_id, movie_id, seat_number, ticket_price)
 VALUES
 (1, 1, 5, 16.0);

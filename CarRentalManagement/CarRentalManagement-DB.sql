@@ -51,7 +51,7 @@ VALUES
 ('wef', 'wevcwv', '2010', 4000.0),
 ('srbg', 'ergerg', '2005', 3000.0);
 
---wrong
+--wrong insert
 INSERT INTO cars(car_make, car_model, car_year, car_price) 
 VALUES
 ('aefse', 'wefwef', '1999', 10.0);
@@ -63,7 +63,7 @@ VALUES
 ('dgs', 'dfrhrhgh', 'cergey@gmail.com', '76535'),
 ('tyjtyj', 'yjtyj', 'fsvgg@gmail.com', '67856');
 
---wrong
+--wrong insert
 INSERT INTO customers(cust_name, cust_last_name, cust_email, cust_phone) 
 VALUES
 ('xfb', 'srgs', 'sgsbrg@gmail.com', '45678');
@@ -78,7 +78,7 @@ VALUES
 (5, 3, '2022-02-17', '2023-02-18');
 
 
---wrong
+--wrong insert 
 INSERT INTO rentals(car_id, cust_id, rental_start_date, rental_end_date)
 VALUES
 (4, 3, '2023-12-01', '2023-09-01');
@@ -92,7 +92,7 @@ VALUES
 (4, '2022-11-23', 812.0),
 (5, '2022-02-17', 1232.0);
 
---wrong
+--wrong insert
 INSERT INTO rental_payments(rental_id, payment_date, payment_amount)
 VALUES
 (1, '2022-03-23', 1.0);
@@ -106,7 +106,7 @@ VALUES
 (4, 5 , 'Very good'),
 (5, 5 , NULL);
 
---wrong
+--wrong insert
 INSERT INTO rental_reviews(rental_id, rating, comment)
 VALUES
 (4, 0 ,'Acceptable');

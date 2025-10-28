@@ -19,7 +19,7 @@ It handles **customers**, **products**, **orders**, and **order items**, demonst
 - `customers` — stores customer names, email, and phone number.  
 - `products` — contains product names and prices.  
 - `orders` — records customer orders with dates and totals.  
-- `order_items` — junction table linking orders to products with quantity.  
+- `order_items` — intersection table table linking orders to products with quantity.  
 
 ---
 
@@ -28,7 +28,7 @@ It handles **customers**, **products**, **orders**, and **order items**, demonst
 - **Primary & foreign key usage**  
 - **Data integrity using UNIQUE and CHECK constraints**  
 - **Many-to-many relationship modeling**  
-- **Insertion of valid data and prevention of invalid entries** HA
+- **Insertion of valid data and prevention of invalid entries** 
 
 ---
 
