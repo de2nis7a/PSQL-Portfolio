@@ -33,13 +33,13 @@ CREATE TABLE song_playlist(
     PRIMARY KEY(playlist_id, song_id)
 );
 
--- Insert customer
+--good inserts
 INSERT INTO customers (cust_name, cust_mid_name, cust_last_name, cust_addr1, cust_addr2, cust_city, cust_postcode, cust_email, cust_phone)
 VALUES
   ('John', 'M', 'Doe', '123 Main Street', '', 'Portsmouth', 'PO1 3AX', 'john.doe@email.com', '1234567890'),
   ('Jane', 'S', 'Smith', '456 High Street', 'Floor 3', 'London', 'SW1A 1AA', 'jane.smith@email.com', '0987654321');
 
--- Insert songs
+--good inserts
 INSERT INTO songs (song_name, song_artist, song_length, song_year)
 VALUES
   ('Bohemian Rhapsody', 'Queen', '00:05:55', '1975-10-31'),
@@ -48,7 +48,7 @@ VALUES
   ('Smells Like Teen Spirit', 'Nirvana', '00:05:01', '1991-09-10'),
   ('Like a Rolling Stone', 'Bob Dylan', '00:06:13', '1965-07-20');
 
--- Insert playlists
+--good inserts
 INSERT INTO playlists (cust_id, pl_creation_date, pl_last_accessed)
 VALUES
   (1, '2023-06-01','2023-06-10'),
@@ -56,7 +56,7 @@ VALUES
   (2, '2023-07-01','2023-07-05'),
   (2, '2023-07-10', NULL);
 
--- Insert songs into playlists
+--good inserts
 INSERT INTO song_playlist (playlist_id, song_id)
 VALUES
   (1, 1),
